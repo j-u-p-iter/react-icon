@@ -5,7 +5,6 @@ export interface IProps extends React.HTMLAttributes<SVGElement> {
   className: string;
   onClick?: (event: React.MouseEvent<SVGElement>) => void;
   svgSpritePath: string;
-  children: never;
 }
 
 export const Icon: React.SFC<IProps> = ({
